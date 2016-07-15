@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="centering">
+                <div class="row">
+                    <div class="text-center">
+
+                        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="main-link">
+                            Click here for a random article
+                        </a>
+
+                        <div id="searchArticle">
+
+                            <div class="search-section">
+                                <div class="input-group col-md-12">
+                                    <input id="searchInput" type="text" class="form-control search-input"/>
+                                <span class="input-group-btn">
+                                    <button id="searchButtonInline" class="btn inline-search-button" type="button">
+                                        <i class="glyphicon glyphicon-remove white"></i>
+                                    </button>
+                                </span>
+                                </div>
+                            </div>
+
+                            <button id="searchButton" class="search-button" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                            <p class="search-call-to-action">Click icon to search</p>
+
+                            <div id="searchList">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
